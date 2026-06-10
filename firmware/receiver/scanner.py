@@ -1,5 +1,3 @@
-#This main.py is for the receiver esp32 board
-
 import network
 import time
 
@@ -10,29 +8,36 @@ wlan.active(True)
 #Target SSID we are looking for
 TARGET_SSID = "Kitchen_Test"
 
-print("Timestamp(s), SSID, RSSI")
-start_time = time.time()
+LOCATION = "Kitchen"
+RUN_ID = "run_01"
+DURATION_SECONDS = 600 #10 mins
+SCAN_DELAY = 1 #seconds between scans
 
-while True:
-    #Scan the airwaves (returns a list of tuples with network info)
-    networks = wlan.scan()
-    
+print("scan_id,timestamp_s,location,run_id,ssid,channel,rssi,found")
+
+start_time = time.time()
+scan_id = 0
+
+while time.time() - start_time < DURATION_SECONDS:
+    scan_id += 1
     current_time = time.time() - start_time
+    
+    networks = wlan.scan()
     found = False
     
     for net in networks:
-        ssid = net[0].decode('utf-8', 'ignore')
-        rssi = net[3] #Index 3 holds the Signal Strength (RSSI)
+        ssid = net[0].decode("utf-8", "ignore")
+        channel = net[2]
+        rssi = net[3]
         
         if ssid == TARGET_SSID:
-            #print data in clean csv format: time, name, signal strength
-            print(f"{current_time:.1f},{ssid},{rssi}")
+            print(f"{scan_id},{current_time:.1f},{LOCATION},{RUN_ID},{ssid},{channel},{rssi},1")
             found = True
             break
-        
-    if not found:
-            #if the board temporarily loses the signal. log a blank/low value
-        print(f"{current_time:.1f},{TARGET_SSID},None")
     
-    #pause for half a second before scanning again
-    time.sleep(0.5)
+    if not found:
+        print(f"{scan_id},{current_time:.1f},{LOCATION},{RUN_ID},{TARGET_SSID},None,None,0")
+        
+    time.sleep(SCAN_DELAY)
+    
+print("TEST COMPLETE")
