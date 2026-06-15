@@ -18,3 +18,5 @@ summary_df = group1.agg(
 ).reset_index()
 
 print(summary_df)
+
+summary_df.to_csv(f"{results_dir}/Kitchen_Summary.csv", index=False)
