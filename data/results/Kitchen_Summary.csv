@@ -1,0 +1,4 @@
+location,run_id,mean_rssi,min_rssi,max_rssi,std_rssi,sample_count,detection_rate
+Kitchen,run_01,-61.187134502923975,-63,-59,0.951814662836619,171,1.0
+Kitchen,run_02,-69.53488372093024,-73,-65,2.0903007068705795,86,1.0
+Kitchen,run_03,-68.30232558139535,-76,-64,2.718432798688421,86,1.0
