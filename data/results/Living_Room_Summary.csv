@@ -1,4 +1,4 @@
-,location,run_id,mean_rssi,min_rssi,max_rssi,std_rssi,sample_count,detection_rate
-0,Living_Room,run_01,-57.7093023255814,-61,-55,0.9439127460892883,86,1.0
-1,Living_Room,run_02,-56.46511627906977,-63,-53,2.364928425324614,86,1.0
-2,Living_Room,run_03,-57.151162790697676,-62,-52,2.7887059696124488,86,1.0
+location,run_id,mean_rssi,min_rssi,max_rssi,std_rssi,sample_count,detection_rate
+Living_Room,run_01,-57.7093023255814,-61,-55,0.9439127460892883,86,1.0
+Living_Room,run_02,-56.46511627906977,-63,-53,2.364928425324614,86,1.0
+Living_Room,run_03,-57.151162790697676,-62,-52,2.7887059696124488,86,1.0
