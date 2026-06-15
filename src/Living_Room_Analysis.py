@@ -19,4 +19,4 @@ summary_df = group.agg(
 
 print(summary_df)
 
-summary_df.to_csv(f"{results_dir}/Living_Room_Summary.csv")
+summary_df.to_csv(f"{results_dir}/Living_Room_Summary.csv", index=False)
