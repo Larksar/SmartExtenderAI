@@ -1,0 +1,4 @@
+location,run_id,mean_rssi,min_rssi,max_rssi,std_rssi,sample_count,detection_rate
+Upstairs_Hallway,run_01,-72.17441860465117,-79,-69,1.0081066757875585,86,1.0
+Upstairs_Hallway,run_02,-68.59302325581395,-71,-64,0.8171385796034442,86,1.0
+Upstairs_Hallway,run_03,-70.04651162790698,-72,-67,1.1872556268102454,86,1.0
