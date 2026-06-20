@@ -1,21 +1,23 @@
 # SmartExtenderAI
 
-Project Status
+## Project Status
 
-Current Status: Data Collection & Analysis Complete
+**Current Status:** Data Collection & Analysis Complete
 
-Completed:
-✓ ESP32 Beacon Node
-✓ ESP32 Receiver Node
-✓ RSSI Data Collection
-✓ Data Processing Pipeline
-✓ Statistical Analysis
-✓ Data Visualisation
+### Completed
 
-In Progress:
-□ Machine Learning Classification
-□ Edge AI Deployment
-□ Predictive Maintenance Models
+- ESP32 Beacon Node
+- ESP32 Receiver Node
+- RSSI Data Collection
+- Data Processing Pipeline
+- Statistical Analysis
+- Data Visualisation
+
+### In Progress
+
+- Machine Learning Classification
+- Edge AI Deployment
+- Predictive Maintenance Models
 
 ## Overview
 
