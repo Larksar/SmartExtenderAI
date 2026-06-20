@@ -6,19 +6,18 @@
 
 ### Completed
 
-- ESP32 Beacon Node
-- ESP32 Receiver Node
-- RSSI Data Collection
-- Data Processing Pipeline
-- Statistical Analysis
-- Data Visualisation
+- [x] ESP32 Beacon Node
+- [x] ESP32 Receiver Node
+- [x] RSSI Data Collection
+- [x] Data Processing Pipeline
+- [x] Statistical Analysis
+- [x] Data Visualisation
 
 ### In Progress
 
-- Machine Learning Classification
-- Edge AI Deployment
-- Predictive Maintenance Models
-
+- [ ] Machine Learning Classification
+- [ ] Edge AI Deployment
+- [ ] Predictive Maintenance Models
 ## Overview
 
 SmartExtenderAI is an Edge AI and IoT project designed to identify optimal Wi-Fi extender placement locations using real-time RSSI (Received Signal Strength Indicator) measurements collected by ESP32-S3 microcontrollers.
