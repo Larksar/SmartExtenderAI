@@ -174,16 +174,13 @@ Lower variability and stronger average signal indicate more suitable extender lo
 
 Matplotlib is used to generate:
 
-* RSSI Time-Series Graphs
-* Signal Distribution Histograms
-* Location Comparison Charts
+* Mean RSSI Comparison
+* RSSI Distribution Box Plots
 * Signal Stability Analysis
-
-Example outputs include:
-
-* RSSI vs Time
-* Average RSSI by Location
-* Signal Variability Comparison
+* Location Comparison Charts
+  
+### RSSI Distribution by Location:
+![RSSI Distribution by Location](visuals/Output/RSSI_boxplot.png)
 
 ---
 
