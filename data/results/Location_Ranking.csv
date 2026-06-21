@@ -1,0 +1,4 @@
+rank,location,mean_rssi,std_rssi,recommendation
+1,Living_Room,-57.10852713178295,2.0325157136754504,Optimal
+2,Kitchen,-66.3414479350832,1.9201827227985397,Acceptable
+3,Upstairs_Hallway,-70.27131782945736,1.0041669607337493,Poor
