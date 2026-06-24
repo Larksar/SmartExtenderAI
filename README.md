@@ -179,7 +179,7 @@ Matplotlib is used to generate:
 * Signal Stability Analysis
 * Location Comparison Charts
   
-### RSSI Distribution by Location:
+### RSSI Distribution by Location (draft):
 ![RSSI Distribution by Location](visuals/Output/RSSI_boxplot.png)
 
 ---
