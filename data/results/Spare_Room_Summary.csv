@@ -1,0 +1,4 @@
+location,run_id,mean_rssi,min_rssi,max_rssi,std_rssi,sample_count,detection_rate
+Spare_Room,run_01,-68.38372093023256,-78.0,-67.0,1.4403316991432116,86,1.0
+Spare_Room,run_02,-70.56976744186046,-81.0,-66.0,3.8056944876744563,86,1.0
+Spare_Room,run_03,-76.06024096385542,-90.0,-67.0,4.240770171625121,83,0.9651162790697675
