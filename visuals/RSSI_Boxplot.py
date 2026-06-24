@@ -18,9 +18,9 @@ plt.boxplot(
         upstairs_hallway_df["rssi"],
         bedroom_df["rssi"],
         master_df["rssi"],
-        spare_room_df["rssi"]
+        spare_room_df["rssi"],
     ],
-    labels=[
+    tick_labels=[
         "Kitchen",
         "Living Room",
         "Upstairs Hallway",
