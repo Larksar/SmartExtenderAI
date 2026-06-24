@@ -17,9 +17,12 @@ location_ranking_df = location_ranking_df.sort_values(
     ascending=False
 ).reset_index(drop=True)
 
-location_ranking_df["recommendation"] =  [
+location_ranking_df["recommendation"] = [
     "Optimal",
     "Acceptable",
+    "Acceptable",
+    "Poor",
+    "Poor",
     "Poor"
 ]
 
